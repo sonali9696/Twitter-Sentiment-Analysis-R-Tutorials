@@ -11,4 +11,4 @@ Tutorials:
 
 1.  authentication.R 
 2. cleaning_tweet.R  
-3. word_database.R  
+3. word_database.R  (including positive-words.txt, negative-words.txt) 
