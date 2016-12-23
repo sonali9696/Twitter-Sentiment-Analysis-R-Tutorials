@@ -1,8 +1,8 @@
 
 #After downloading the hui.lui.pos and hui.lui.neg, mention below the location of the file
 
-pos.words = scan('C:/Users/hp/Documents/positive-words.txt', what='character', comment.char=';') #Make sure you edit the location
-neg.words = scan('C:/Users/hp/Documents/negative-words.txt', what='character', comment.char=';')
+pos.words = scan('C:/Users/hp/Documents/GitHub/positive-words.txt', what='character', comment.char=';') #Make sure you edit the location
+neg.words = scan('C:/Users/hp/Documents/GitHub/negative-words.txt', what='character', comment.char=';')
 
 
 #Adding words to positive and negative databases
