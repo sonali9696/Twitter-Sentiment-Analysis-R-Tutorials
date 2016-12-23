@@ -9,6 +9,4 @@ SYSTEM REQUIREMENTS:  (Refer to my first tutorial video)
   
 Tutorials:  
   
-1.  authentication.R  
-2.1 cleaning_tweet.R  
-2.2 word_database.R  
+1.  authentication.R  2.1 cleaning_tweet.R  2.2 word_database.R  
