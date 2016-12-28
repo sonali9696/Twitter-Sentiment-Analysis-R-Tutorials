@@ -25,9 +25,9 @@ score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
 	pp1 = lapply(list, `[[`, 2)
 	nn1 = lapply(list, `[[`, 3)
 
-	scores.df = data.frame(score=score_new, text=sentences)
-	positive.df = data.frame(Positive=pp1, text=sentences)
-	negative.df = data.frame(Negative=nn1, text=sentences)
+	scores.df = data.frame(score = score_new, text=sentences)
+	positive.df = data.frame(Positive = pp1, text=sentences)
+	negative.df = data.frame(Negative = nn1, text=sentences)
 
 	list_df = list(scores.df, positive.df, negative.df)
 	return(list_df)
