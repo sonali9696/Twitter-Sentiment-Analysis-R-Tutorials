@@ -1,8 +1,7 @@
-# Clean the tweets
+# Clean the tweets and returns merged data frame
 result = score.sentiment(sample, pos.words, neg.words)
 
 library(reshape)
-#Creating a copy of result data frame
 test1=result[[1]]
 test2=result[[2]]
 test3=result[[3]]
