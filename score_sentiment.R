@@ -6,9 +6,8 @@ score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
 	{
 		sentence = gsub('[[:punct:]]',' ',sentence)
 		sentence = gsub('[[:cntrl:]]','',sentence)
-		sentence = gsub('\\d+','',sentence)
-		sentence = gsub('\n','',sentence)
-
+		sentence = gsub('\\d+','',sentence)  #removes decimal number
+		sentence = gsub('\n','',sentence)    #removes new lines
 		sentence = tolower(sentence)
 		word.list = str_split(sentence, '\\s+')
 		words = unlist(word.list)
