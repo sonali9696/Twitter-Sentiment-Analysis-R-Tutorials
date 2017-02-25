@@ -5,10 +5,14 @@
 library(ROAuth)
 library(twitteR)
 
-consumer_key <-"AKJsxNqX2D8uTo9orgjRirvWL"
-consumer_secret <- "QOKk0ctHhbXNQ5QaipqofrZQzWM92mfkcoP60xe7HJzjSUCz6F"
-access_token <- "2617540074-5l6gGJhCP8iw9DS7sVD9qsFaUGfWGO9fqlHt5Wg"
-access_secret <- "VVMfNIzgPEUmCk5QyIWr5A4ZSC2Lxy7CERoUtWs4jAe0l"
+consumer_key <-  #Insert your consumer key
+#"AKJsxNqX2D8uTo9orgjRirvWL"
+consumer_secret <- #Insert your consumer secret
+#"QOKk0ctHhbXNQ5QaipqofrZQzWM92mfkcoP60xe7HJzjSUCz6F"
+access_token <- #Insert your access token
+#"2617540074-5l6gGJhCP8iw9DS7sVD9qsFaUGfWGO9fqlHt5Wg"
+access_secret <- #Insert your access secret
+#"VVMfNIzgPEUmCk5QyIWr5A4ZSC2Lxy7CERoUtWs4jAe0l"
 
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem") #downloads the certificate
 
